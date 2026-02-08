@@ -26,8 +26,8 @@
 
 if (isset($_POST["username"], $_POST["password"])) {
 
-    echo $_POST["username"] . "<br>";
-    echo $_POST["password"] . "<br>";
+    echo "Welcome " . $_POST["username"] . "<br>";
+    echo "Your password is: " . $_POST["password"];
 
 }
 
